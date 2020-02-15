@@ -16,3 +16,6 @@ class ProductListView(ListView):
             qs = self.request.GET['query']
             queryset = queryset.filter(name__contains=qs)
         return queryset
+
+
+# テストです
